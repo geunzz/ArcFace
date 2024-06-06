@@ -7,6 +7,7 @@ Arcface is a method of embedding feature vectors of images based on angles. Ther
     EPOCHS = 30
     BATCH_SIZE = 16
     datagen = data_generator(DATASET_PATH = 'PATH/TO/THE/TRAIN_IMAGE/', shuffle_sel=True)
+    # you can work with LFW dataset from Kaggle: https://www.kaggle.com/datasets/jessicali9530/lfw-dataset?resource=download-directory&select=lfw-deepfunneled
 
 train.py trains the network containing the arcface algorithm, and creates a pytorch(.pt) file as the result.
 
